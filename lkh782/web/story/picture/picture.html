@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卡图展示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery img {
+            max-width: 300px;
+            max-height: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery h2 {
+            text-align: center;
+            width: 100%;
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<a href="javascript:history.back()">返回卡图故事页面</a>
+
+    <div class="gallery">
+        <h2>图片展示区</h2>
+        <img src="..\..\..\image\zhigeng.png" alt="Image 1">
+        <img src="..\..\..\image\baitou.png" alt="Image 2">
+        <img src="..\..\..\image\tuoniao.png" alt="Image 3">
+        <img src="..\..\..\image\juzui.png" alt="Image 4">
+        <img src="..\..\..\image\diqi.png" alt="Image 5">
+	<img src="..\..\..\image\xuemiao.png" alt="Image 1">
+        <img src="..\..\..\image\zhunbei.png" alt="Image 2">
+        <img src="..\..\..\image\ditu.png" alt="Image 3">
+        <img src="..\..\..\image\feng.png" alt="Image 4">
+        <img src="..\..\..\image\meng.png" alt="Image 5">
+	<img src="..\..\..\image\hai.png" alt="Image 5">
+
+
+    </div>
+</body>
+</html>
